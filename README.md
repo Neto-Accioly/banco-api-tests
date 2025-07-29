@@ -17,24 +17,24 @@ Este projeto realiza testes automatizados na API REST do [banco-api](https://git
 
 ```
 BANCO-API-TESTS/
-├── fixtures/ # Arquivos JSON com dados reutilizáveis para os testes
-│ ├── postLogin.json # Dados de entrada para testes de login
-│ └── postTransferencias.json# Dados de entrada para testes de transferência
-├── helpers/ # Funções auxiliares que evitam repetição de código
-│ └── autenticacao.js # Função para lidar com autenticação via token
-├── mochawesome-report/ # Relatórios gerados automaticamente após os testes
-│ ├── assets/ # Arquivos de estilo e recursos visuais do relatório
-│ └── mochawesome.html # Relatório visual em HTML
-│ └── mochawesome.json # Relatório em formato JSON
-├── node_modules/ # Dependências do projeto (instaladas via npm)
-├── test/ # Scripts de teste automatizado
-│ ├── login.test.js # Casos de teste para login
-│ └── transferencia.test.js # Casos de teste para transferências
-├── .env # Variáveis de ambiente (como token e baseURL)
-├── .gitignore # Arquivos e pastas ignorados pelo Git
-├── package-lock.json # Registro exato das versões instaladas das dependências
-├── package.json # Configuração do projeto e lista de dependências
-└── README.md # Documentação do projeto
+├── fixtures/                  # Arquivos JSON com dados reutilizáveis para os testes
+│ ├── postLogin.json           # Dados de entrada para testes de login
+│ └── postTransferencias.json  # Dados de entrada para testes de transferência
+├── helpers/                   # Funções auxiliares que evitam repetição de código
+│ └── autenticacao.js          # Função para lidar com autenticação via token
+├── mochawesome-report/        # Relatórios gerados automaticamente após os testes
+│ ├── assets/                  # Arquivos de estilo e recursos visuais do relatório
+│ └── mochawesome.html         # Relatório visual em HTML
+│ └── mochawesome.json         # Relatório em formato JSON
+├── node_modules/              # Dependências do projeto (instaladas via npm)
+├── test/                      # Scripts de teste automatizado
+│ ├── login.test.js            # Casos de teste para login
+│ └── transferencia.test.js    # Casos de teste para transferências
+├── .env                       # Variáveis de ambiente (como token e baseURL)
+├── .gitignore                 # Arquivos e pastas ignorados pelo Git
+├── package-lock.json          # Registro exato das versões instaladas das dependências
+├── package.json               # Configuração do projeto e lista de dependências
+└── README.md                  # Documentação do projeto
 ```
 
 ## Formato do arquivo `.env`
